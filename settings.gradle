@@ -1,2 +1,3 @@
 rootProject.name='HookSample'
 include ':app'
+include ':architect'

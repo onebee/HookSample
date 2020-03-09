@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        startActivity();
+
         TextView tv = (TextView) findViewById(R.id.tv);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
