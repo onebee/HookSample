@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    private final static String URL = "http://www/163.com/logo.jpg";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         // 拓展 根据参数来产生不同的实现
 
         // 根据配置文件产生不同的实现
+        Facade facade = new Facade(URL);
+        facade.loader();
 
     }
 }
