@@ -28,5 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 拓展 根据参数来产生不同的实现
 
+        // 根据配置文件产生不同的实现
+
     }
 }
