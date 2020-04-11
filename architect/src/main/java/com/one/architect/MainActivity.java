@@ -34,5 +34,8 @@ public class MainActivity extends AppCompatActivity {
         Facade facade = new Facade(URL);
         facade.loader();
 
+
+
+
     }
 }

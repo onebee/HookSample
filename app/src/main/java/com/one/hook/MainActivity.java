@@ -12,6 +12,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 import androidx.appcompat.app.AppCompatActivity;
+import okhttp3.OkHttpClient;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,22 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "hook 失败", Toast.LENGTH_SHORT).show();
 
         }
+
+
+
+//        try {
+
+            OkHttpClient okHttpClient = new OkHttpClient.Builder().build();
+
+
+//            Response response = okHttpClient.newCall(request).execute();
+
+
+
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
     }
 
     private void hook(View view) throws Exception {
